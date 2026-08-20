@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  background: #23b1bb;
 }
 
 
@@ -17,6 +17,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
+}
+nav a.active{
+  background-color: #23b1bb;
+  padding:5px;
+  color:white;
 }
 
 .logo {
@@ -72,8 +77,8 @@ body {
   width: 100%;
   padding: 12px;
   background: #333;
-  color: white;
-  border: none;
+  color: rgb(240, 220, 220);
+  border: none; 
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
